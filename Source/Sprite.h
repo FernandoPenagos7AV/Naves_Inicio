@@ -13,11 +13,12 @@ class Sprite{
 public:
 	void CargarImagen(char * ruta);
 	//void PintarModulo(int id, int x, int y, int w, int h);
+	void BorrarFondoNave();
 	void PintarModulo(int id, int x, int y);
 	Sprite(SDL_Surface * screen);
 	~Sprite();
 	int WidthModule(int id);
-	int HeightModule(int id);
+	int HeightModule(int id	);
 	
 };
 #endif
